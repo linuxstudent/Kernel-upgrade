@@ -12,8 +12,11 @@ echo
 sleep 4
 
 wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.8.tar.xz
+
 echo
+
 echo " Extracting the Package"
+
 echo
 
 sleep 2
@@ -22,7 +25,9 @@ tar -xvf linux-4.14.8.tar.xz
 
 cd linux-4.14.8
 echo
+
 echo "Instaling Dependencies. Please wait...."
+
 echo
 yum groupinstall "Development Tools" -y
 
